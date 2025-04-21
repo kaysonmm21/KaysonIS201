@@ -1,0 +1,66 @@
+.Common{
+  color: white;
+}
+.header{
+  height: 200px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/img/Densky.jpg);
+  color:white;
+  background-repeat: no-repeat;
+  background-size: cover;     /* or try '100% 100%' if needed */
+  background-position: center;
+  border-bottom: #333;
+  padding-top: 150px;  /* Adds padding at the top to move text down */
+  text-align: center;
+  font-size: larger;
+}
+  
+body{
+  background-color: #E5E5E5
+
+}
+
+img{
+  display: block;
+  margin-left: 50px;
+  width:55% ;
+}
+
+nav{
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #00338D;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+.responsive-img {
+  max-width: 35%;
+  height: auto;
+  display: block;
+}
+
+.numbered{
+  font-weight: bold;
+
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.graph {
+  z-index: 1;
+  padding-left: 50px;
+  width: 50%;
+
+}
+
+.left{
+  text-align: left;
+  margin-left: 50px;
+}
